@@ -122,12 +122,40 @@ func=makeAFunction("Kanishk")
 #Crazy dude. Interesting I must try this.
 func("26")
 
+lst=[1,2,3,4,5,6]
+#So a new object is created when you do this. Interesting. I did not know that.
+print(lst is lst.copy())
+#Cool man Start using python more and more. And you will become really freaking good at this shit dude.
+#Comeon you can do this Kanishk. Work harder. Make this thing work. Make this thing work.
 
+print([x**2 for x in range(10)])
+#This is one way to define anonymous fucntions.
+# Dude this is too concise for me. I am not sure if I will be able to remember this shit.
+# Let me try to think about this I will try to do this
 
+# this is one way to do it that I find extremely comprehensible. Cool man, I like this shit nice.
+def po(i):
+    return i**2
 
+print(list(map(po,range(i))))
+#Work harder kanishk. Avoid distractions. Avoid more and more distractions. Cut down on certain things to buy more time.
+#The sad fact is you can't do everything. So do a few things well. Yeah I agree with that philosophy. I'm going to follow it and do a few
+# things really really well dude.
 
+t=[1,2,3,4]
+print(t)
+#Wow tuple unpacking and packing is so cool dude. Lets see if this also works with lists
+a,b,c,d=t
+#Wow this does work with lists amazing dude. Cool man cool. So many cool and interesting features build into python man.
+print(b)
 
+dictionary={}
+#Zip reversed. Blah blah blah so many thing. Its good to know these features but I doubt I am going to remember all of them.
+# I should quickly read python programming guide and then just start coding. The important section is the packages
+# I think I will hit this section next. Cool man
 
+var="Hellow Hellow          ".strip().capitalize().split()
+print(var)
 
 
 
