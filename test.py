@@ -157,9 +157,60 @@ dictionary={}
 var="Hellow Hellow          ".strip().capitalize().split()
 print(var)
 
+class Dog:
+    #This is like saying this is a public static method or variable. Its so precisely defined in Java but also accurately and powerfully
+    #in python. You just have to remember how it was used. If you write self that is an instance method.
+    tricks = []
+    @classmethod #Wow I had no idea you could do this. The python documentation is slightly incomplete. It makes more sense to come to
+    #Python with the Java knowledge in mind dude. Cool man cool. It is pretty much the same thing.
+    def weirdMethod(cls):
+        return cls
+
+    def weirderMethdod(self):
+        return self
+
+    def __init__(self, name):
+        self.name = name
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+#Very compact way of defining classes in python. Ok I like it dude. Cool. I think I need to experiment a little bit more to figure this stuff out
+# I still don't know how to distinguish between class methods and instance methods for example.
+
+#I want to be one of the people solving these problems dude. I am good at this. I am good at thinking and learning new things.
+#Thinking and learning systematically, leveraging my brains associative thinking capabilities. So interesting dude. Amazing man.
+#Very different perspective. Wow, I feel much better right now. Its crazy how I suddenly felt really sleepy. Like an insulin drop. Its crazy.
 
 
+d=Dog
+print(Dog is Dog.weirdMethod())
 
+aa=Dog("yolo")
+
+print(aa is aa.weirdMethod())
+
+#bb=Dog()
+
+#print(len(bb.name))
+
+
+class B(Exception):
+    pass
+class C(B):
+    pass
+class D(C):
+    pass
+
+for cls in [B, C, D]:
+    try:
+        raise cls()
+    except D:
+        print("D")
+    except C:
+        print("C")
+    except B:
+        print("B")
 
 
 
