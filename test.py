@@ -241,5 +241,25 @@ class Reverse:
 #these generator thingys also seems really cool. The question is though. Will I use all these features when I am writing code.
 #Not completely sure am I. No I am not. But I can do a lot more if the degree i have with me dude.
 
+# you have to be really carefull when using import in python because the way you import severely affects the namespace and you can hide or shadow current variables or functions with the same name dude
+#its nice to see that python can do shell stuff. Awesome man super duper awesome man. I like this cool dude. cool. Lambe race ka ghoda. Ok dude. Lets do this shit. I guess I am dancing in a short while.
+#Lets go at 8:30. Thats the best time to go dude. #Maybe 8:35 cool man cool
+#interesting you can use data compression algorithms in python. Such an expansive and flexible language dude. Nice. No wonder so many people use python dude. Awesome.
 
+#Wow, you can also time stuff dude. Nice awesome dude. I did not know you could do that stuff amazing man amazing awesomeness.
+#what does assert in python mean anyway. I haven't really seen anyone use assert accept arjun. What the fuck is this assert thing. I can understand a lot of the code that arjun wrote though. Amazing dude awesomeness
+#Well I don't have a live example like dynetica. But I think this is good enough dude.
 
+def average(values):
+    """Computes the arithmetic mean of a list of numbers.
+
+    >>> print(average([20, 30, 70]))
+    40.0
+    """
+    return sum(values) / len(values)
+
+import doctest
+print(doctest.testmod())   # automatically validate the embedded tests
+
+#awesome man you can run tests directly from the docstrings. Wow, python indeed is a very versatile and expansive language. I love it awesome dude. I think its going to be my new workhorse
+# as I cut my dependence from java. Java is a great language but python seems to have a LOT MORE packages which is freaking awesome dude. Super awesome.
