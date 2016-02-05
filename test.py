@@ -213,11 +213,33 @@ for cls in [B, C, D]:
         print("B")
 
 
+#Nice this is really freaking useful dude. I can apply this to my own code. Nice dude. Nice. I did not realize I could do this
+# this is super freaking awesome dude. Nice dude super nice dude. Awesomeness. Amazingness. I am going to DEFINITELY use this functionality
+# also I think I will follow Arjun when it comes to coding style. I think he has it down right dude. He has it down. This is awesome.
+#Cool this begins my python journey. Now I know. And will know as I keep on practicing and stuff dude. Nice man nice.
+#Take what you can get dude. Take what you can get my man. Take what you can get.
+
+#This is so cool dude. Nice.
+#Python is a weird and interesting language. I am glad to have learned it dude. Nice nice nice man. Awesome freaking awesome man.
+#Wow Sam stayed in his lab for 4 years thats pretty awesome man. Almost like being a PhD student man. Nice. I think I am better prepared for this stuff dude.
+
+class Reverse:
+    """Iterator for looping over a sequence backwards."""
+    def __init__(self, data):
+        self.data = data
+        self.index = len(data)
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.index == 0:
+            raise StopIteration
+        self.index = self.index - 1
+        return self.data[self.index]
 
 
 
-
-
+#these generator thingys also seems really cool. The question is though. Will I use all these features when I am writing code.
+#Not completely sure am I. No I am not. But I can do a lot more if the degree i have with me dude.
 
 
 
